@@ -1,0 +1,15 @@
+version: 0.2
+phases:
+  install:
+    runtime-versions:
+      nodejs: 12.x
+  build:
+    commands:
+      - console.log("##################Build successful###################");
+  post_build:
+    commands:
+      - pwd
+      - ls -al
+artifacts:
+  files:
+    - '**/*'

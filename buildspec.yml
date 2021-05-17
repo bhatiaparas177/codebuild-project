@@ -5,7 +5,7 @@ phases:
       nodejs: 12.x
   build:
     commands:
-      - console.log("##################Build successful###################");
+      - pwd
   post_build:
     commands:
       - pwd
